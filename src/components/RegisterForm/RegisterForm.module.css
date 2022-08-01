@@ -1,0 +1,29 @@
+.form-container {
+  max-width: 20rem;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 2rem 2em 5rem rgb(83,63,254);
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.error-msg {
+  color: rgb(255, 38, 0);
+  margin: 0;
+}
+
+.invalid {
+  border: 0.1rem solid rgb(255, 38, 0);
+}
+
+.register-form input {
+  min-height: 2rem;
+  outline: none;
+  border-radius: 1rem;
+}

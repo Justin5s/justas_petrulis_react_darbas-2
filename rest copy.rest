@@ -1,0 +1,30 @@
+POST https://autumn-delicate-wilderness.glitch.me/v1/auth/register 
+Content-Type: application/json
+
+{
+"email": "bandymas@gmail.com",
+"password": "111222"
+}
+
+###
+
+POST https://autumn-delicate-wilderness.glitch.me/v1/auth/login 
+Content-Type: application/json
+
+{
+"email": "bandymas@gmail.com",
+"password": "111222"
+}
+
+###
+GET https://autumn-delicate-wilderness.glitch.me/v1/content/skills
+Authorization: 
+###
+
+POST https://autumn-delicate-wilderness.glitch.me/v1/content/skills
+Content-Type: application/json
+Authorization: 
+{
+"title": "Bandymas",
+"description": "1"
+}

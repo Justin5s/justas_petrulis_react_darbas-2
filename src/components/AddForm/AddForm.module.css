@@ -1,0 +1,40 @@
+.form-container {
+  max-width: 20rem;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 2rem 2em 5rem rgb(83,63,254);
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.form-title {
+  text-align: center;
+}
+
+.error-msg {
+  color: rgb(255, 38, 0);
+  margin: 0;
+}
+
+.invalid {
+  border: 0.1rem solid rgb(255, 38, 0);
+}
+
+.add-form input,
+textarea {
+  min-height: 2rem;
+  outline: none;
+  border-radius: 20px;
+  resize: vertical;
+}
+
+.add-form label {
+  margin-top: 0.5rem;
+}
+

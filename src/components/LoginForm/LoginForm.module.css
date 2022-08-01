@@ -1,0 +1,40 @@
+.form-container {
+  max-width: 20rem;
+  margin: 0 auto;
+  background-color: #fff;
+ 
+  box-shadow: 2rem 2em 9rem  rgb(83,63,254);
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.error-msg {
+  color: rgb(255, 0, 0);
+  margin: 0;
+}
+
+.invalid {
+  border: 0.1rem solid rgb(255, 0, 0);
+}
+
+.login-form input {
+  min-height: 2rem;
+  outline: none;
+  border-radius: 1rem;
+}
+
+.register-here {
+  margin: 0.5rem;
+}
+
+.reg-link {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
