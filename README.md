@@ -1,6 +1,6 @@
 # React based login/registration application.
 
-Register/login, add new skills with disprition.
+Register/login, add new skills with description.
 # 🚀 To execute program you need to:
 
 1. npm install
